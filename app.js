@@ -5,9 +5,9 @@ let firstName = 'Ellie';
 
 const usStates = 50;
 
-// compute the sum of 5 and 7
+// compute the sum of 5 and 4
 
-let sum = 5 + 7;
+let sum = 5 + 4;
 console.log(sum);
 
 // create sayHello function with hello world alert
@@ -25,31 +25,12 @@ function checkAge(name, age) {
         alert("Sorry " + name + ", you aren't old enough to view this page!")
     }
     };
-// call checkAge function with 4 people
-let charles = {
-    name: 'Charles',
-    age: 21
-    };
+// call function to take name and age and if age is less than 21 show alert message
 
-let abby = {
-    name: 'Abby',
-    age: 27
-    };
-
-let james = {
-    name: 'James',
-    age: 18
-    };
-
-let john = {
-    name: 'John',
-    age: 17
-    };
-
-checkAge(charles.name, charles.age);
-checkAge(abby.name, abby.age);
-checkAge(james.name, james.age);
-checkAge(john.name, john.age);
+checkAge('Charles', 21);
+checkAge('Abby', 27);
+checkAge('James', 18);
+checkAge('John', 17);
 
 // create array of fav vegetables
 let favVeggies = ['broccoli', 'asparagus', 'corn', 'potato'];
