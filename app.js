@@ -1,5 +1,5 @@
 // name variable
-var firstName = 'Ellie';
+let firstName = 'Ellie';
 
 // number of US States as constant variable that will not change
 
@@ -7,13 +7,13 @@ const usStates = '50';
 
 // compute the sum of 5 and 7
 
-var sum = 5 + 7;
+let sum = 5 + 7;
 console.log(sum);
 
 // create sayHello function with hello world alert
 function sayHello() {
     alert("Hello World!");
-};
+    };
 
 // call function for sayHello
 sayHello();
@@ -24,27 +24,27 @@ function checkAge(name, age) {
     if (age < 21) {
         alert("Sorry " + name + ", you aren't old enough to view this page!")
     }
-};
+    };
 // call checkAge function with 4 people
-var charles = {
+let charles = {
     name: 'Charles',
     age: 21
-};
+    };
 
-var abby = {
+let abby = {
     name: 'Abby',
     age: 27
-};
+    };
 
-var james = {
+let james = {
     name: 'James',
     age: 18
-};
+    };
 
-var john = {
+let john = {
     name: 'John',
     age: 17
-};
+    };
 
 checkAge(charles.name, charles.age);
 checkAge(abby.name, abby.age);
@@ -52,23 +52,23 @@ checkAge(james.name, james.age);
 checkAge(john.name, john.age);
 
 // create array of fav vegetables
-var favVeggies = ['broccoli', 'asparagus', 'corn', 'potato'];
+let favVeggies = ['broccoli', 'asparagus', 'corn', 'potato'];
 
 // create loop to display fav vegetables
-for (var i=0; i < favVeggies.length; i++) {
+for (let i=0; i < favVeggies.length; i++) {
     console.log(favVeggies[i])
-}
+    };
 
 // create object with name and breed properties of pet
 
-var myDog = {
+let myDog = {
     name: 'Blu',
     breed: 'collie'
-}
+    };
 console.log(myDog);
 
 // create array of 5 objects, each with name and age
-var people = [
+let people = [
     {
         name: 'Liz',
         age: 28
@@ -91,20 +91,20 @@ var people = [
     }]
 
 // create loop to call checkAge function for each object in array
-for (var i=0; i < people.length; i++) {
+for (let i=0; i < people.length; i++) {
     checkAge(people[i].name, people[i].age)
-}
+    };
 
 // create a function called getLength that takes any word as an argument and returns number of characters
 function getLength(string) {
     return string.length;
-}
+    };
 
 // call getLength function
 getLength('Hello World!');
 
 // store the return of getLength function as a variable
-var word =  getLength('Hello World!');
+let word =  getLength('Hello World!');
 
 // determine if the return of function is an even or odd number and display message
 if (word % 2 == 0) {
