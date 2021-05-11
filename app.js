@@ -3,7 +3,7 @@ let firstName = 'Ellie';
 
 // number of US States as constant variable that will not change
 
-const usStates = '50';
+const usStates = 50;
 
 // compute the sum of 5 and 7
 
