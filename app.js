@@ -42,11 +42,11 @@ for (let i=0; i < favVeggies.length; i++) {
 
 // create object with name and breed properties of pet
 
-let myDog = {
+let pet = {
     name: 'Blu',
     breed: 'collie'
     };
-console.log(myDog);
+console.log(pet.name, pet.breed);
 
 // create array of 5 objects, each with name and age
 let people = [
